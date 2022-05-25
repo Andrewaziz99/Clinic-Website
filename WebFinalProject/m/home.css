@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: fit-content;
+    top: 10px;
+   position: fixed;
+}
+
+li{
+    display: inline;
+    border-right: 1px solid white;
+}
+
+li:last-child{
+    border-right: none;
+}
+li a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active){
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.content{
+    width: 99%;
+    top: 30%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 110px;
+    margin: 10px;
+}

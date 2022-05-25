@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heading{
+    font-family: 'Aileron', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+.regbox {
+    display: flexbox;
+    width: 450px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: whitesmoke;
+    padding: 20px;
+    margin-left: 60%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.regbox h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.signup-btn {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: #21afde;
+}
+
+.signup-btn:hover {
+    background-color: #0e789b;
+}
+
+
+
+.selection {
+    border-radius: 10px;
+    width: 60px;
+}
+
+.selection select {
+    border-color: #21afde;
+    border-radius: 10px;
+    width: 110px;
+    background-color: whitesmoke;
+    color: #21afde;
+    transition-duration: 0.3s;
+}
+
+.selection select:hover {
+    display: flexbox;
+    border-color: #21afde;
+    border-radius: 10px;
+    width: 110px;
+    background-color: rgb(199, 197, 197);
+    color: #057296;
+    transition-duration: 0.3s;
+}
+
+.errors{
+    color: red;
+    font-size: 10px;
+}
+
